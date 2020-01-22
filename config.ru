@@ -1,4 +1,6 @@
-# This file is used by Rack-based servers to start the application.
+require 'rails_helper'
 
-require ::File.expand_path('../config/environment', __FILE__)
-run Rails.application
+RSpec.describe StudentController, type: :controller do
+
+end
+
